@@ -1,0 +1,43 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.site-header, .site-footer {
+    background: #2c5b3d;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.site-title {
+    margin: 0;
+}
+.site-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.site-nav a:hover {
+    background-color: #4a7c59;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .site-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
